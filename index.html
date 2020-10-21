@@ -7,15 +7,38 @@
 </head>
 <body>
     <div>
-        <h3>Booking Form</h3>
+        <h1>Booking Form</h1>
         <h3>Name of Hirer</h3>
+        <input type="string" placeholder="Full Name">
         <h3>Contact Number</h3>
+        <input type="number" placeholder="04XX XXX XXX">
         <h3>Email Address</h3>
-        <h3>Booking Date</h3>
-        <h3>Start Time</h3>
-        <h3>End Time</h3>
+        <input type="email" placeholder="jane@smith.com">
+        <h3>Event Type</h3>
+            <input type="radio" id="wedding" name="eventOptions" value="wedding">
+            <label for="wedding">Wedding</label>
+            <input type="radio" id="engagement" name="eventOptions" value="engagement">
+            <label for="engagement">Engagement</label>
+            <input type="radio" id="birthday" name="eventOptions" value="birthday">
+            <label for="birthday">Birthday</label>
+            <input type="radio" id="charity" name="eventOptions" value="charity">
+            <label for="charity">Charity</label>
+            <input type="radio" id="graduation" name="eventOptions" value="graduation">
+            <label for="graduation">Graduation</label>
+            <input type="radio" id="corporate" name="eventOptions" value="corporate">
+            <label for="corporate">Corporate</label>
+            <input type="radio" id="other" name="eventOptions" value="other">
+            <label for="other">Other</label>
+        <h3>Booking Start</h3>
+        <input type="datetime-local">
+        <h3>Booking End</h3>
+        <input type="datetime-local">
+        <h3>Covid Requirements</h3>
+        <h3>Venue Name</h3>
         <h3>Venue Address</h3>
+        <h3>Earlies & Latest time of access to venue (Setup/Packup)</h3>
         <h3>Quoted Cost</h3>
+        <h3>Name of person recieving USB of images</h3>
         <h3>How did you hear about us?</h3>
         <h3>Payment Details</h3>
         <h3>Signature</h3>
